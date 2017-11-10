@@ -43,7 +43,7 @@ Understanding the principles of doing this in general and in javascript (which i
 - Prototypical inheritance (Javascript)
 - ES6 + Classes (Syntactic sugar for prototypes, even with this syntax it is important to know prototypes)
 
-Javascript Knowledge:
+Javascript & Scripting Knowledge:
 =====================
 
 These skills focus more on javascript itself or tied to developing with javascript.
@@ -67,6 +67,13 @@ THESE REQUIRE KNOWLEDGE ON TRANSPILING WITH BABEL!
 - Async / Await functions
 
 There is more to these language updates, but covering these are essential.
+
+**Typescript**:
+Introduces some nice functionality and strong typing to javascript, basic familiarity will serve you well with this. 
+It is also a super-set of javascript and will require transpiling to run in browser. 
+
+**Ruby && Ruby on rails**:
+Ruby on rails can really compliment front-end developement, a lot of places uses Ruby on rails as a layer between front-end and back-end. 
 
 
 Architectural Javascript Knowledge:

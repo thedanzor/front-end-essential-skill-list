@@ -97,9 +97,8 @@ These focus more on building the environment for good development practises and 
 
 - NPM Packages (important)
 - EsLinting + Using it in your editor
-- NPM Commands (building, watching etc)
 - Post CSS
-- Webpack 
+- Webpack
 - Treeshaking practises (ties into modular architecture)
 - Babel - Transpiling
 - Polyfilling - Web components

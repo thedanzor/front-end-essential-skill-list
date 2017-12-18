@@ -3,7 +3,7 @@ This is a list of skills and modern technology currently in the front-end sphere
 These skills cover a big range of dev-ops, which gives you a lot of control of how you setup your projects for ease of development. 
 As well as ensure you write clean, secure, modern and scalable code. 
 
-Mindset Skills:
+Programming Conventions:
 ===============
 
 These are skills that are more down to a way of thinking, approaching a solution than actually knowing technical details or solutions indepth. 
@@ -15,7 +15,7 @@ These are skills that are more down to a way of thinking, approaching a solution
 
 **Test Driven Development** - Very common nowadays is first writing your unit tests, then writing your unit to pass the tests. 
 
-If you have a clear goal on what unit a should do, what it should be scoped too and what it's likely to be encounted by. You can then write the unit tests first and ensure it passes all these cases, it's a very powerful approach to ensuring a high-standard of code and adds fail-safes from the get-go. 
+If you have a clear goal on what unit a should do, what it should be scoped to and what it's likely to be encounted by. You can then write the unit tests first and ensure it passes all these cases, it's a very powerful approach to ensuring a high-standard of code and adds fail-safes from the get-go. 
 
 - Writing code that you can write unit tests for, both as a whole unit and as separate parts of the unit is important, regardless of TDD. 
 
@@ -35,20 +35,28 @@ Knowing the cores of both of these paradigms and how to use them are essential i
 - Observing
 - Streams
 
-**Object Oriented programming** - This is not something i am going to directly advocate for personally. But there is a chance we could move to a more OOP paradigm instead of a functional programming paradigm. 
+**Object Oriented programming** - Considering javascript does it differently with prototypical inheritance and a new ES6 Class syntax, it's important to know OOP in general and how javascript handles that type of programming. 
 
-Understanding the principles of doing this in general and in javascript (which is a little different) will serve you well regardless. 
-
-- OOP Practises in general (very well documented)
+- OOP Practices in general
 - Prototypical inheritance (Javascript)
-- ES6 + Classes (Syntactic sugar for prototypes, even with this syntax it is important to know prototypes)
+- ES6+ Classes (Syntactic sugar for prototypes, even with this syntax it is important to know prototypes)
+- Object Create
+- Instancing in javascript
 
-Javascript & Scripting Knowledge:
+Design Patterns:
+==================
+These help you structure your applications in a way that makes sense, there is a few design patterns out there. 
+You have the more common patterns like Composition and Inheritance but also: 
+
+- Observer Design Pattern
+- Prototype Design Pattern
+- Singletons & Modular Design Patterns
+
+
+Javascript Knowledge:
 =====================
 
 These skills focus more on javascript itself or tied to developing with javascript.
-
-THESE REQUIRE KNOWLEDGE ON TRANSPILING WITH BABEL! 
 
 **ES6:**
 
@@ -59,6 +67,7 @@ THESE REQUIRE KNOWLEDGE ON TRANSPILING WITH BABEL!
 - Destructing
 - Arrow Functions
 - Template Strings
+- Object Assign
 
 
 **ES7/8**:
@@ -71,9 +80,6 @@ There is more to these language updates, but covering these are essential.
 **Typescript**:
 Introduces some nice functionality and strong typing to javascript, basic familiarity will serve you well with this. 
 It is also a super-set of javascript and will require transpiling to run in browser. 
-
-**Ruby && Ruby on rails**:
-Ruby on rails can really compliment front-end developement, a lot of places uses Ruby on rails as a layer between front-end and back-end. 
 
 
 Architectural Javascript Knowledge:
@@ -97,8 +103,9 @@ These focus more on building the environment for good development practises and 
 
 - NPM Packages (important)
 - EsLinting + Using it in your editor
+- Node Scripts (building, watching etc)
 - Post CSS
-- Webpack
+- Webpack 
 - Treeshaking practises (ties into modular architecture)
 - Babel - Transpiling
 - Polyfilling - Web components
@@ -148,8 +155,13 @@ Resources:
 > Node / NPM:
 - https://nodeschool.io/
 
+> Javascript:
+- http://eloquentjavascript.net/
+
 > Javascript - ES6/7/8
+- http://exploringjs.com/es6.html
 - http://2ality.com/2016/02/ecmascript-2017.html
 - http://2ality.com/2017/02/ecmascript-2018.html
-- http://exploringjs.com/es2016-es2017/ - REALLY GOOD! 
+- http://exploringjs.com/es2016-es2017/
 - https://egghead.io/browse/languages
+- https://blog.mozilla.org/javascript/
